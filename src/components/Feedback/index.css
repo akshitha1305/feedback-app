@@ -27,12 +27,14 @@
 }
 .emojis {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style-type: none;
 }
 .emoji {
   width: 50px;
   height: 50px;
+  align-self: center;
+  margin: auto;
 }
 .emoji-name {
   font-weight: 500;
@@ -52,7 +54,6 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
-  display: none;
 }
 @media (max-width: 768px) {
   .thankyou-container {
