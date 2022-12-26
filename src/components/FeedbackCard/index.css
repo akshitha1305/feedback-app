@@ -1,0 +1,12 @@
+.emoji-container {
+  width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 7px;
+  border-style: none;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  text-align: center;
+}
